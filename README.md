@@ -8,6 +8,4 @@ Soda-PTA_withGNN    Soda-PTA operates with a GNN optimization framework.
 ```
 
 ## Reference
-```
-[1] Jiatai Sun, Xiaru Zha, Chao Wang, Xiao Wu, Dan Niu, Wei W. Xing and Zhou Jin. Pseudo Adjoint Optimization: Harnessing the Solution Curve for SPICE Acceleration. In Proceedings of 43rd ACM/IEEE International Conference on Computer-Aided Design, ICCAD '24.
-```
+1. Jiatai Sun, Xiaru Zha, Chao Wang, Xiao Wu, Dan Niu, Wei W. Xing and Zhou Jin. **"Pseudo Adjoint Optimization: Harnessing the Solution Curve for SPICE Acceleration"**, ACM/IEEE International Conference on Computer-Aided Design (ICCAD), Oct 27-31, 2024.
