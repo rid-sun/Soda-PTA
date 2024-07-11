@@ -15,5 +15,5 @@ while True:
     win32gui.SendMessage(ignore, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, 0)
     # 
     win32gui.SendMessage(ignore, win32con.WM_LBUTTONUP, win32con.MK_LBUTTON, 0)
-    print('输出')
+    print('output')
     

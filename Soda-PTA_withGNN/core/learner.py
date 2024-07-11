@@ -14,7 +14,7 @@ from .models import *
 
 
 #################################
-######## Soda-PTA 优化器 ########
+######## Soda-PTA Optimizer #####
 #################################
 class Soda_PTA_Optimizer(nn.Module):
 
