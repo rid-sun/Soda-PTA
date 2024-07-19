@@ -15,3 +15,13 @@ wspice1.exe           SPICE simulator executable file
 ```python
 python opscipts.py
 ```
+
+## Replacing another SPICE tool
+> WSPICE operates in interactive mode rather than batch mode, so if you replace it with another SPICE tool, you will need to modify control func [control](./data/data.py).  
+ 
+> The default file format for reading solution curve information is specific to WSPICE:
+> ```text
+> rhs[id] timepoints voltages[0] ... voltages[n] residual nr_iter
+> ```
+> func [readMsg](./data/data.py) will also need to be modified when replacing WSPICE with another SPICE tool.
+> 
